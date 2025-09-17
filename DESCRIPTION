@@ -1,0 +1,15 @@
+Package: GWCCA
+Title: Geographically Weighted Canonical Correlation Analysis
+Version: 0.0.0.9000
+Authors@R: 
+    person("Kalyani", "Jeslyn", , "jeslynkalyani@gmail.com", role = c("aut", "cre"))
+Description: Provides tools to test for spatial dependence in canonical variates, compute the influence of a certain canonical variate in different locations, and compute the influence of neighbors towards the global CCA coefficient
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Imports:
+    CCA,
+    CCP,
+    spdep
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
